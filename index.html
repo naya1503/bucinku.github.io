@@ -66,7 +66,18 @@
 
 <!-- Jangan Edit Bagian Ini --><script>
   const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:14vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
-  const inip = []; const iniwp = []; iden = 1; iniwp[1] = wallpaper.src; iniwp[2] = wallpaper1.src; iniwp[3] = wallpaper1.src; iniwp[4] = wallpaper1.src; iniwp[5] = wallpaper1.src;
+  //const inip = []; const iniwp = []; iden = 1; iniwp[1] = wallpaper.src; iniwp[2] = wallpaper1.src; iniwp[3] = wallpaper1.src; iniwp[4] = wallpaper1.src; iniwp[5] = wallpaper1.src;
+ const inip = [];
+    const iniwp = [];
+    iden = 1;
+    iniwp[1] = document.getElementById('wallpaper1').src;
+    iniwp[2] = document.getElementById('wallpaper1').src;
+    iniwp[3] = document.getElementById('wallpaper1').src;
+    iniwp[4] = document.getElementById('wallpaper1').src;
+    iniwp[5] = document.getElementById('wallpaper1').src;
+
+    // Menggantikan gambar dengan video
+    document.getElementById('wallpaper1').src = "wa2.mp4";
 
 inip[1] = "<br>Happy Birthday Kesayangan Aku, Berliana Trinita Djayanti .<br>Maaf, aku ngga bisa kasih kamu barang yang bernilai tinggi, maaf juga aku ngga bisa mengajak kamu ketempat yang romantis nan indah.";
 inip[2] = "Tapi,<br><br>Bukan itu yang mau aku sampein";
